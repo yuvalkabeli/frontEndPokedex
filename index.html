@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="src/index.js" defer></script>
+    <link rel="stylesheet" href="src/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col">
+                    <div class="card" id="list1" style="border-radius: 0.75rem; background-color: #eff1f2">
+                        <div class="card-body py-4 px-4 px-md-5">
+                            <div class="text-center">
+                                <h1>Pokedex</h1>
+                                <div>
+                                    <!-- don't touch be tipagash -->
+
+
+                                    <input id='search' class="form-control form-control-lg border-2 rounded"
+                                        placeholder="type pokemon name/id">
+                                    <button type="button" class="btn btn-outline-danger btn-lg"
+                                        id='searchButton'>Search!</button>
+                                    <input id='login' class="form-control form-control-lg border-2 rounded"
+                                        placeholder="type username">
+                                    <button type="button" class="btn btn-outline-danger btn-lg"
+                                        id='loginButton'>login!</button>
+                                    <div id='pokemon-details'>
+                                        <img id='pokeImg' src=''>
+                                        <div id='pokeID'></div>
+                                        <div id='pokeName'></div>
+                                        <div id='pokeHeight'></div>
+                                        <div id='pokeWeight'></div>
+                                        <ul id='pokeTypes' class="list-group list-group-flush"></ul>
+                                        <button id='catchButton'>Catch!</button>
+                                        <button id='releaseButton'>Release!</button>
+                                        <div id=userName></div>
+                                        <button id=caughtPokemon>show pokemon</button>
+                                        <ul id=pokemonList></ul>
+
+
+                                        <!-- don't touch be tipagash -->
+                                        <br><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+body{
+    font-family: "Sriracha", sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to right, rgba(48, 46, 46, 0.95), rgba(138, 8, 8, 0.9));
+  }
+  .poke-types{
+    list-style-type: none;
+  }
